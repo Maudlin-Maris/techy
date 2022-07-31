@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+   
+  
+
+  .bg-picture {
+    background-image: url("./src/Components/Images/tech.jpeg");
+    
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+    padding: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  @media  screen and (max-width: 767px) {
+    .bg-picture {
+      background-image: url("./src/Components/Images/tech.jpeg");
+      background-attachment: fixed;
+      background-position: center center;
+      height: auto;
+      padding-bottom: 150em;
+      padding-right: 265%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: cover;
+
+    }
+   
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .bg-picture { 
+      background-image: url("./src/Components/Images/tech.jpeg");
+      background-attachment: fixed;
+      background-position: center center;
+      height: auto;
+      padding-right: 600px;
+      padding-bottom: 35em;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  .login {
+    width: 1003px;
+    aspect-ratio: auto 1003 / 689;
+    height: 600px;
+  }
+ 
+  @media screen and (min-width: 768) {
+    .login {
+      margin-right: 500em;
+      /* margin: 100%; */
+    }
+  }
+  
+  
+  .tech{
+    background-image: url("./src/Components/Images/registration.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+  .container{
+    width: 1003px;
+    aspect-ratio: auto 1003 / 689;
+    height: 600px;
+  }
+ 
